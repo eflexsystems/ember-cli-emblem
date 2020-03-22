@@ -820,10 +820,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@eflexsystems/emblem@^0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@eflexsystems/emblem/-/emblem-0.12.2.tgz#88c85162a96dff237a598b514d7fdf5585b2af07"
-  integrity sha512-sISYI1eJTH1rRSoZnEWxErGDBZGVVY/0k5LdQ5SMm/Av68XRLNhGiL8oWfmJfZZVCunIgyqr/bjt1bCsvNsTqQ==
+"@eflexsystems/emblem@^0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@eflexsystems/emblem/-/emblem-0.12.3.tgz#5f30759b733b355e61eddae32dbf2030512e02f5"
+  integrity sha512-7/fJQlZxOOCBjXh0xH9hgqYjPvKRVQUT+dPR413Qrv+vHwkU49HYJ7drF/etAlniAlNA4Qp9iS7qCMe7eYhk3g==
   dependencies:
     handlebars ">=2.0.0"
     optimist "^0.3.7"

@@ -5,7 +5,7 @@ const VersionChecker = require('ember-cli-version-checker');
 const path = require('path');
 const defaults = require('lodash.defaults');
 const assign = require('lodash.assign');
-const emblem = require('emblem').default;
+const emblem = require('@eflexsystems/emblem').default;
 
 function TemplateCompiler (inputTree, options) {
   if (!(this instanceof TemplateCompiler)) {
@@ -36,7 +36,7 @@ TemplateCompiler.prototype.processString = function (string, relativePath) {
 }
 
 module.exports = {
-  name: 'ember-cli-emblem',
+  name: '@eflexsystems/ember-cli-emblem',
 
   shouldSetupRegistryInIncluded() {
     const checker = new VersionChecker(this);
